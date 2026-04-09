@@ -18,5 +18,7 @@ public class Mainclass {
 		MainSchool mainSchool = new MainSchool();
 		mainSchool.admissionLKG();
 		mainSchool.admission1to5();
+
+		CastingParentClass.di();
 	}
 }
